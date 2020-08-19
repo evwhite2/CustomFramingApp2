@@ -13,18 +13,24 @@ import Art from "./Pages/Art/Art";
 
 function App() {
   return (
-    <BrowserRouter>
+     <BrowserRouter>
       <div>
+
         <Nav />
-        <Route exact path="/" component={Home} />
+
+        
+      <h1> This site is undergoing changes.</h1>
+        {/* <Route exact path="/" component={Home} />
         <Route exact path="/login" component={Login} />
         <Route exact path="/cart" component={Cart} />
         <Route exact path="/shopart" component={Art} />
         <Route exact path="/signUp" component={newUser} />
         <Route path="/quoteSpec/:sku" component={QuoteSpec} />
-        <Route path="/list/:id" component={Cart} />
+        <Route path="/list/:id" component={Cart} /> */}
       </div>
+
     </BrowserRouter> 
+
   );
 }
 
